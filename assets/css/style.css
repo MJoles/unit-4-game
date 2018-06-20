@@ -1,5 +1,6 @@
 body {
     background: url("../images/test5.jpeg");
+    margin: auto;
     
 }
 .diamond {
@@ -33,28 +34,42 @@ body {
     background-color: blueviolet;
     
     
+    
 }
 
 #info {
     background-color: aqua;
+    font-weight: bold;
+    margin: auto;
 }
 
 #guessingNumber {
     margin-bottom: 10px;
-    margin-right: 5px;
+    margin-left: 575px;
     background-color: palevioletred;
+    
     }
 #crystals {
-    margin-left: 40px;
+      
+    margin-left: 610px;
 }
 
 #totalScore {
     margin-top: 10px;
     background-color: chartreuse;
+    margin: auto;
 }
 
 #header {
     background-color: yellow;
+    color: purple;
+    font-family: fantasy;
+    margin: auto;
+    
+}
+
+.row {
+    margin: auto;
 }
 
 
