@@ -1,5 +1,6 @@
-.body {
-    margin-left: 20px;
+body {
+    background: url("../images/test5.jpeg");
+    
 }
 .diamond {
     width: 100px;
@@ -30,6 +31,7 @@
     margin-left: 5px;
     margin-right: 5px;
     background-color: blueviolet;
+    
     
 }
 
