@@ -10,11 +10,11 @@
 
 <body>
 
-    <div class="col-md-6">
+    <div id="header" class="col-md-4">
         <h1>Crystal Collector Game!</h1>
     </div>
     <div class="row"></div>
-        <div id="info" class="col-md-5">
+        <div id="info" class="col-md-4">
             <p>You will be given a random number at the start of the game.</p>
             <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to  your total score.</p>
             <p>You win the game by matching your total score to a random random, you lose the game if your total score goes above the random number.</p>
@@ -23,28 +23,30 @@
         </div>
     </div>
 
-    <div class = "col-md-6">
-            <div id="guessingNumber">
+    <div class = "row">
+            <div id="guessingNumber" class="col-sm-2">
                 <h2>Number to Guess: <span class="value"></span></h2> 	
             </div>
     
-            <div id="scoreboard">
+            <div id="scoreboard" class="col-sm-2">
                 <h3><span id="status"></span></h3>
                 <h3>Wins: <span id="win"></span></h3>
                 <h3>Losses: <span id="loss"></span> </h3>
             </div>
         </div>
+    </div>
     
-        
-        <div id="crystals" class="col-md-6">
+    
+      <div class = "row">
+            <div id="crystals" class="container">
                 <button><img class="diamond" src="assets/images/diamond.jpg" data-crystalvalue="3"></button>
                 <button><img class="ruby" src="assets/images/ruby.JPG" data-crystalvalue="2"></button>
                 <button><img class="emerald" src="assets/images/emerald.jpg" data-crystalvalue="1"></button>
-                <button><img class="yellow" src="assets/images/yellow.jpg" data-crystalvalue="4"></button>
-                
+                <button><img class="yellow" src="assets/images/yellow.jpg" data-crystalvalue="4"></button>           
+            </div>  
         </div>
-    
-        <div id ="totalScore">
+        
+        <div id ="totalScore" class="col-sm-3">
             <h2 id = "yts">Your Total Score is: <span id ="yourScore">0</span></h2>
             
         </div>

@@ -1,3 +1,6 @@
+.body {
+    background-color: red;
+}
 .diamond {
     width: 100px;
     height: 100px;
@@ -7,7 +10,7 @@
 .ruby {
     width: 100px;
     height: 100px;
-    
+
   }
  
 .emerald {
@@ -21,5 +24,31 @@
     height: 100px;
     
   }
+
+#scoreboard {
+    background-color: blueviolet;
+    
+}
+
+#info {
+    background-color: aqua;
+}
+
+#guessingNumber {
+    background-color: palevioletred;
+}
+#crystals {
+    margin-left: 40px;
+}
+
+#totalScore {
+    margin-left: 60px;
+    background-color: chartreuse;
+}
+
+#header {
+    background-color: yellow;
+}
+
 
 
