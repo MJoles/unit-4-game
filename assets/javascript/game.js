@@ -12,6 +12,7 @@ $(document).ready(function() {
 	newGame();
 
 	function newCrystals () {
+        console.log(newCrystals);
 		var numbers = []
 			while(numbers.length < 5){
 			  var randomnumber = Math.floor(Math.random()*12)
@@ -45,7 +46,7 @@ $(document).ready(function() {
 			}
 
 		var numberToGuess = randomIntFromInterval(19,50);
-
+        console.log(numberToGuess)
 		$('.value').text(numberToGuess);
 
 

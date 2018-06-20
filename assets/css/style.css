@@ -1,5 +1,5 @@
 .body {
-    background-color: red;
+    margin-left: 20px;
 }
 .diamond {
     width: 100px;
@@ -26,6 +26,9 @@
   }
 
 #scoreboard {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     background-color: blueviolet;
     
 }
@@ -35,14 +38,16 @@
 }
 
 #guessingNumber {
+    margin-bottom: 10px;
+    margin-right: 5px;
     background-color: palevioletred;
-}
+    }
 #crystals {
     margin-left: 40px;
 }
 
 #totalScore {
-    margin-left: 60px;
+    margin-top: 10px;
     background-color: chartreuse;
 }
 
