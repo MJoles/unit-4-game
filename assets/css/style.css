@@ -58,6 +58,7 @@ body {
     margin-top: 10px;
     background-color: chartreuse;
     margin: auto;
+    
 }
 
 #header {
@@ -65,6 +66,7 @@ body {
     color: purple;
     font-family: fantasy;
     margin: auto;
+    text-align: center;
     
 }
 

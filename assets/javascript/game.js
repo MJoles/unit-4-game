@@ -24,7 +24,7 @@ $(document).ready(function() {
 			  }
 			  if(!found)numbers[numbers.length]=randomnumber;
 			}
-		console.log(numbers);		
+		console.log(newCrystals);		
 
 		for (i = 0; i < numbers.length; i++) {
 			var imageCrystal = $('#crystals');
